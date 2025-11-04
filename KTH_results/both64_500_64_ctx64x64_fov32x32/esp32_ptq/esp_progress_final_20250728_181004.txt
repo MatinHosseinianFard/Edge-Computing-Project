@@ -1,0 +1,13 @@
+Accuracy: 0.9902
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      boxing     0.9962    0.9932    0.9947      8977
+handclapping     0.9822    0.9814    0.9818      8533
+  handwaving     0.9855    0.9849    0.9852     10691
+     walking     0.9950    0.9980    0.9965     13140
+
+    accuracy                         0.9902     41341
+   macro avg     0.9897    0.9894    0.9895     41341
+weighted avg     0.9902    0.9902    0.9902     41341

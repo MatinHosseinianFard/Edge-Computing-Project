@@ -1,0 +1,12 @@
+,basketball,biking,diving,golf_swing,horse_riding,soccer_juggling,swing,tennis_swing,trampoline_jumping,volleyball_spiking,walking
+basketball,0,0,13,68,48,173,37,36,164,0,52
+biking,0,209,8,13,528,259,480,4,89,0,977
+diving,0,2,443,6,140,121,356,1,380,0,180
+golf_swing,0,0,0,733,147,121,6,123,71,0,249
+horse_riding,0,61,18,45,1154,267,364,17,119,0,1026
+soccer_juggling,0,7,2,3,46,2780,111,27,88,0,537
+swing,0,9,4,0,93,51,1081,6,265,0,616
+tennis_swing,0,0,1,3,8,109,13,514,26,0,172
+trampoline_jumping,0,0,6,2,39,84,232,10,1168,0,189
+volleyball_spiking,0,1,1,3,43,91,67,4,80,0,42
+walking,0,8,2,9,136,172,225,23,87,0,1451

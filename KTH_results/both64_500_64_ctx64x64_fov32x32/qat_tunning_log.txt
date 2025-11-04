@@ -1,0 +1,281 @@
+
+=== Processing Fold 1 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_1_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_1_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+
+=== Processing Fold 1 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_1_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_1_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+645/645 - 13s - loss: 0.3396 - accuracy: 0.8386 - 13s/epoch - 20ms/step
+Epoch 2/20
+645/645 - 7s - loss: 0.2282 - accuracy: 0.9100 - 7s/epoch - 11ms/step
+Epoch 3/20
+645/645 - 7s - loss: 0.2053 - accuracy: 0.9211 - 7s/epoch - 11ms/step
+Epoch 4/20
+645/645 - 7s - loss: 0.1952 - accuracy: 0.9264 - 7s/epoch - 11ms/step
+Epoch 5/20
+645/645 - 7s - loss: 0.1932 - accuracy: 0.9263 - 7s/epoch - 11ms/step
+Epoch 6/20
+645/645 - 7s - loss: 0.1929 - accuracy: 0.9274 - 7s/epoch - 11ms/step
+Epoch 7/20
+645/645 - 7s - loss: 0.1902 - accuracy: 0.9273 - 7s/epoch - 11ms/step
+Epoch 8/20
+645/645 - 7s - loss: 0.1880 - accuracy: 0.9275 - 7s/epoch - 11ms/step
+Epoch 9/20
+645/645 - 7s - loss: 0.1879 - accuracy: 0.9272 - 7s/epoch - 11ms/step
+Epoch 10/20
+645/645 - 8s - loss: 0.1864 - accuracy: 0.9304 - 8s/epoch - 13ms/step
+Epoch 11/20
+645/645 - 7s - loss: 0.1872 - accuracy: 0.9292 - 7s/epoch - 11ms/step
+Epoch 12/20
+645/645 - 7s - loss: 0.1896 - accuracy: 0.9276 - 7s/epoch - 10ms/step
+Epoch 13/20
+645/645 - 7s - loss: 0.1857 - accuracy: 0.9297 - 7s/epoch - 11ms/step
+Epoch 14/20
+645/645 - 7s - loss: 0.1882 - accuracy: 0.9273 - 7s/epoch - 11ms/step
+Epoch 15/20
+645/645 - 7s - loss: 0.1868 - accuracy: 0.9291 - 7s/epoch - 11ms/step
+Epoch 16/20
+645/645 - 7s - loss: 0.1850 - accuracy: 0.9302 - 7s/epoch - 11ms/step
+Epoch 17/20
+645/645 - 7s - loss: 0.1849 - accuracy: 0.9293 - 7s/epoch - 11ms/step
+Epoch 18/20
+645/645 - 7s - loss: 0.1867 - accuracy: 0.9285 - 7s/epoch - 11ms/step
+Epoch 19/20
+645/645 - 7s - loss: 0.1919 - accuracy: 0.9295 - 7s/epoch - 11ms/step
+Epoch 20/20
+645/645 - 7s - loss: 0.1861 - accuracy: 0.9288 - 7s/epoch - 11ms/step
+Converting the fine-tuned QAT model to TFLite INT8...
+INFO:tensorflow:Assets written to: /tmp/tmp6yuqvss3/assets
+/home/matin/uni/Term2/Edge/Replication/venv_for_qat/lib/python3.10/site-packages/tensorflow/lite/python/convert.py:953: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+✅ C array saved with variable: fold1_model in KTH_results/both64_500_64_ctx64x64_fov32x32/c_arrays_qat/fold1_model_data.h
+Successfully converted and saved TFLite model for Fold 1 to:
+KTH_results/both64_500_64_ctx64x64_fov32x32/quantized_models_qat/fold_1_qat_model.tflite
+Model size reduced from 573.40 KB to 50.98 KB
+
+=== Processing Fold 2 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_2_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_2_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+645/645 - 33s - loss: 0.3223 - accuracy: 0.8264 - 33s/epoch - 52ms/step
+Epoch 2/20
+645/645 - 7s - loss: 0.2244 - accuracy: 0.9029 - 7s/epoch - 11ms/step
+Epoch 3/20
+645/645 - 7s - loss: 0.2050 - accuracy: 0.9170 - 7s/epoch - 11ms/step
+Epoch 4/20
+645/645 - 8s - loss: 0.1946 - accuracy: 0.9199 - 8s/epoch - 12ms/step
+Epoch 5/20
+645/645 - 7s - loss: 0.1872 - accuracy: 0.9245 - 7s/epoch - 11ms/step
+Epoch 6/20
+645/645 - 7s - loss: 0.1888 - accuracy: 0.9236 - 7s/epoch - 11ms/step
+Epoch 7/20
+645/645 - 7s - loss: 0.1917 - accuracy: 0.9237 - 7s/epoch - 11ms/step
+Epoch 8/20
+645/645 - 7s - loss: 0.1949 - accuracy: 0.9226 - 7s/epoch - 11ms/step
+Epoch 9/20
+645/645 - 7s - loss: 0.1927 - accuracy: 0.9212 - 7s/epoch - 11ms/step
+Epoch 10/20
+645/645 - 7s - loss: 0.1968 - accuracy: 0.9225 - 7s/epoch - 11ms/step
+Epoch 11/20
+645/645 - 10s - loss: 0.1934 - accuracy: 0.9224 - 10s/epoch - 16ms/step
+Epoch 12/20
+645/645 - 11s - loss: 0.1965 - accuracy: 0.9222 - 11s/epoch - 17ms/step
+Epoch 13/20
+645/645 - 10s - loss: 0.1953 - accuracy: 0.9209 - 10s/epoch - 16ms/step
+Epoch 14/20
+645/645 - 10s - loss: 0.1902 - accuracy: 0.9235 - 10s/epoch - 15ms/step
+Epoch 15/20
+645/645 - 9s - loss: 0.1896 - accuracy: 0.9237 - 9s/epoch - 14ms/step
+Epoch 16/20
+645/645 - 9s - loss: 0.1942 - accuracy: 0.9209 - 9s/epoch - 14ms/step
+Epoch 17/20
+645/645 - 7s - loss: 0.1897 - accuracy: 0.9223 - 7s/epoch - 12ms/step
+Epoch 18/20
+645/645 - 7s - loss: 0.1901 - accuracy: 0.9234 - 7s/epoch - 11ms/step
+Epoch 19/20
+645/645 - 11s - loss: 0.1894 - accuracy: 0.9244 - 11s/epoch - 17ms/step
+Epoch 20/20
+645/645 - 9s - loss: 0.1821 - accuracy: 0.9254 - 9s/epoch - 14ms/step
+Converting the fine-tuned QAT model to TFLite INT8...
+INFO:tensorflow:Assets written to: /tmp/tmpv_ps92nb/assets
+/home/matin/uni/Term2/Edge/Replication/venv_for_qat/lib/python3.10/site-packages/tensorflow/lite/python/convert.py:953: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+✅ C array saved with variable: fold2_model in KTH_results/both64_500_64_ctx64x64_fov32x32/c_arrays_qat/fold2_model_data.h
+Successfully converted and saved TFLite model for Fold 2 to:
+KTH_results/both64_500_64_ctx64x64_fov32x32/quantized_models_qat/fold_2_qat_model.tflite
+Model size reduced from 573.40 KB to 51.02 KB
+
+=== Processing Fold 3 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_3_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_3_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+645/645 - 33s - loss: 0.3250 - accuracy: 0.8261 - 33s/epoch - 51ms/step
+Epoch 2/20
+645/645 - 6s - loss: 0.2213 - accuracy: 0.9065 - 6s/epoch - 9ms/step
+Epoch 3/20
+645/645 - 6s - loss: 0.1973 - accuracy: 0.9224 - 6s/epoch - 10ms/step
+Epoch 4/20
+645/645 - 7s - loss: 0.1876 - accuracy: 0.9291 - 7s/epoch - 10ms/step
+Epoch 5/20
+645/645 - 7s - loss: 0.1869 - accuracy: 0.9268 - 7s/epoch - 10ms/step
+Epoch 6/20
+645/645 - 6s - loss: 0.1908 - accuracy: 0.9281 - 6s/epoch - 10ms/step
+Epoch 7/20
+645/645 - 7s - loss: 0.1857 - accuracy: 0.9265 - 7s/epoch - 10ms/step
+Epoch 8/20
+645/645 - 7s - loss: 0.1824 - accuracy: 0.9276 - 7s/epoch - 11ms/step
+Epoch 9/20
+645/645 - 7s - loss: 0.1819 - accuracy: 0.9295 - 7s/epoch - 11ms/step
+Epoch 10/20
+645/645 - 8s - loss: 0.1831 - accuracy: 0.9302 - 8s/epoch - 12ms/step
+Epoch 11/20
+645/645 - 8s - loss: 0.1788 - accuracy: 0.9307 - 8s/epoch - 12ms/step
+Epoch 12/20
+645/645 - 6s - loss: 0.1831 - accuracy: 0.9306 - 6s/epoch - 10ms/step
+Epoch 13/20
+645/645 - 6s - loss: 0.1846 - accuracy: 0.9291 - 6s/epoch - 10ms/step
+Epoch 14/20
+645/645 - 7s - loss: 0.1811 - accuracy: 0.9309 - 7s/epoch - 10ms/step
+Epoch 15/20
+645/645 - 7s - loss: 0.1853 - accuracy: 0.9289 - 7s/epoch - 11ms/step
+Epoch 16/20
+645/645 - 7s - loss: 0.1788 - accuracy: 0.9285 - 7s/epoch - 10ms/step
+Epoch 17/20
+645/645 - 7s - loss: 0.1828 - accuracy: 0.9306 - 7s/epoch - 11ms/step
+Epoch 18/20
+645/645 - 7s - loss: 0.1793 - accuracy: 0.9308 - 7s/epoch - 10ms/step
+Epoch 19/20
+645/645 - 6s - loss: 0.1772 - accuracy: 0.9293 - 6s/epoch - 10ms/step
+Epoch 20/20
+645/645 - 7s - loss: 0.1790 - accuracy: 0.9289 - 7s/epoch - 10ms/step
+Converting the fine-tuned QAT model to TFLite INT8...
+INFO:tensorflow:Assets written to: /tmp/tmpx51j7rsu/assets
+/home/matin/uni/Term2/Edge/Replication/venv_for_qat/lib/python3.10/site-packages/tensorflow/lite/python/convert.py:953: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+✅ C array saved with variable: fold3_model in KTH_results/both64_500_64_ctx64x64_fov32x32/c_arrays_qat/fold3_model_data.h
+Successfully converted and saved TFLite model for Fold 3 to:
+KTH_results/both64_500_64_ctx64x64_fov32x32/quantized_models_qat/fold_3_qat_model.tflite
+Model size reduced from 573.37 KB to 51.02 KB
+
+=== Processing Fold 4 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_4_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_4_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+645/645 - 33s - loss: 0.3410 - accuracy: 0.8110 - 33s/epoch - 51ms/step
+Epoch 2/20
+645/645 - 7s - loss: 0.2324 - accuracy: 0.9015 - 7s/epoch - 11ms/step
+Epoch 3/20
+645/645 - 8s - loss: 0.2092 - accuracy: 0.9144 - 8s/epoch - 12ms/step
+Epoch 4/20
+645/645 - 7s - loss: 0.1988 - accuracy: 0.9166 - 7s/epoch - 11ms/step
+Epoch 5/20
+645/645 - 7s - loss: 0.1959 - accuracy: 0.9214 - 7s/epoch - 10ms/step
+Epoch 6/20
+645/645 - 6s - loss: 0.1938 - accuracy: 0.9220 - 6s/epoch - 10ms/step
+Epoch 7/20
+645/645 - 9s - loss: 0.1885 - accuracy: 0.9223 - 9s/epoch - 14ms/step
+Epoch 8/20
+645/645 - 7s - loss: 0.1962 - accuracy: 0.9219 - 7s/epoch - 11ms/step
+Epoch 9/20
+645/645 - 10s - loss: 0.1947 - accuracy: 0.9207 - 10s/epoch - 15ms/step
+Epoch 10/20
+645/645 - 6s - loss: 0.1909 - accuracy: 0.9222 - 6s/epoch - 10ms/step
+Epoch 11/20
+645/645 - 6s - loss: 0.1888 - accuracy: 0.9220 - 6s/epoch - 10ms/step
+Epoch 12/20
+645/645 - 8s - loss: 0.1880 - accuracy: 0.9212 - 8s/epoch - 12ms/step
+Epoch 13/20
+645/645 - 7s - loss: 0.1878 - accuracy: 0.9200 - 7s/epoch - 11ms/step
+Epoch 14/20
+645/645 - 4s - loss: 0.1880 - accuracy: 0.9227 - 4s/epoch - 7ms/step
+Epoch 15/20
+645/645 - 6s - loss: 0.1915 - accuracy: 0.9189 - 6s/epoch - 10ms/step
+Epoch 16/20
+645/645 - 6s - loss: 0.1905 - accuracy: 0.9220 - 6s/epoch - 10ms/step
+Epoch 17/20
+645/645 - 6s - loss: 0.1883 - accuracy: 0.9217 - 6s/epoch - 10ms/step
+Epoch 18/20
+645/645 - 6s - loss: 0.1917 - accuracy: 0.9203 - 6s/epoch - 10ms/step
+Epoch 19/20
+645/645 - 6s - loss: 0.1928 - accuracy: 0.9194 - 6s/epoch - 9ms/step
+Epoch 20/20
+645/645 - 7s - loss: 0.1866 - accuracy: 0.9209 - 7s/epoch - 11ms/step
+Converting the fine-tuned QAT model to TFLite INT8...
+INFO:tensorflow:Assets written to: /tmp/tmphot71_3v/assets
+/home/matin/uni/Term2/Edge/Replication/venv_for_qat/lib/python3.10/site-packages/tensorflow/lite/python/convert.py:953: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+✅ C array saved with variable: fold4_model in KTH_results/both64_500_64_ctx64x64_fov32x32/c_arrays_qat/fold4_model_data.h
+Successfully converted and saved TFLite model for Fold 4 to:
+KTH_results/both64_500_64_ctx64x64_fov32x32/quantized_models_qat/fold_4_qat_model.tflite
+Model size reduced from 573.40 KB to 51.02 KB
+
+=== Processing Fold 5 ===
+Loading float32 model from: KTH_results/both64_500_64_ctx64x64_fov32x32/checkpoints/fold_5_best_model.keras
+Applying Quantization-Aware Training wrapper...
+Loading validation data for fine-tuning from: KTH_results/both64_500_64_ctx64x64_fov32x32/test_data/fold_5_test_data.npz
+Fine-tuning the QAT model for 20 epochs...
+Epoch 1/20
+645/645 - 30s - loss: 0.3321 - accuracy: 0.8367 - 30s/epoch - 46ms/step
+Epoch 2/20
+645/645 - 7s - loss: 0.2321 - accuracy: 0.9066 - 7s/epoch - 11ms/step
+Epoch 3/20
+645/645 - 7s - loss: 0.2087 - accuracy: 0.9201 - 7s/epoch - 11ms/step
+Epoch 4/20
+645/645 - 7s - loss: 0.1910 - accuracy: 0.9255 - 7s/epoch - 10ms/step
+Epoch 5/20
+645/645 - 8s - loss: 0.1897 - accuracy: 0.9257 - 8s/epoch - 12ms/step
+Epoch 6/20
+645/645 - 9s - loss: 0.1912 - accuracy: 0.9262 - 9s/epoch - 13ms/step
+Epoch 7/20
+645/645 - 8s - loss: 0.2013 - accuracy: 0.9235 - 8s/epoch - 12ms/step
+Epoch 8/20
+645/645 - 8s - loss: 0.1999 - accuracy: 0.9250 - 8s/epoch - 12ms/step
+Epoch 9/20
+645/645 - 8s - loss: 0.2098 - accuracy: 0.9209 - 8s/epoch - 12ms/step
+Epoch 10/20
+645/645 - 7s - loss: 0.2055 - accuracy: 0.9216 - 7s/epoch - 11ms/step
+Epoch 11/20
+645/645 - 6s - loss: 0.2065 - accuracy: 0.9238 - 6s/epoch - 10ms/step
+Epoch 12/20
+645/645 - 6s - loss: 0.1983 - accuracy: 0.9252 - 6s/epoch - 10ms/step
+Epoch 13/20
+645/645 - 7s - loss: 0.2027 - accuracy: 0.9221 - 7s/epoch - 11ms/step
+Epoch 14/20
+645/645 - 7s - loss: 0.2010 - accuracy: 0.9236 - 7s/epoch - 11ms/step
+Epoch 15/20
+645/645 - 7s - loss: 0.2019 - accuracy: 0.9256 - 7s/epoch - 11ms/step
+Epoch 16/20
+645/645 - 7s - loss: 0.1983 - accuracy: 0.9220 - 7s/epoch - 10ms/step
+Epoch 17/20
+645/645 - 8s - loss: 0.1919 - accuracy: 0.9264 - 8s/epoch - 12ms/step
+Epoch 18/20
+645/645 - 7s - loss: 0.1955 - accuracy: 0.9254 - 7s/epoch - 11ms/step
+Epoch 19/20
+645/645 - 8s - loss: 0.1991 - accuracy: 0.9237 - 8s/epoch - 13ms/step
+Epoch 20/20
+645/645 - 7s - loss: 0.2008 - accuracy: 0.9256 - 7s/epoch - 11ms/step
+Converting the fine-tuned QAT model to TFLite INT8...
+INFO:tensorflow:Assets written to: /tmp/tmpw4h6xmpr/assets
+/home/matin/uni/Term2/Edge/Replication/venv_for_qat/lib/python3.10/site-packages/tensorflow/lite/python/convert.py:953: UserWarning: Statistics for quantized inputs were expected, but not specified; continuing anyway.
+  warnings.warn(
+✅ C array saved with variable: fold5_model in KTH_results/both64_500_64_ctx64x64_fov32x32/c_arrays_qat/fold5_model_data.h
+Successfully converted and saved TFLite model for Fold 5 to:
+KTH_results/both64_500_64_ctx64x64_fov32x32/quantized_models_qat/fold_5_qat_model.tflite
+Model size reduced from 573.37 KB to 51.02 KB
+GPU detected and configured for training: PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')
+
+=== Processing Fold 1 ===
+Loading float32 model from: KTH_results/contextOnly32_500_64_ctx32x32/checkpoints/fold_1_best_model.keras

@@ -1,0 +1,6 @@
+
+=== Table 1 (Per-Class Averages over 5-Fold) ===
+boxing => Precision: 99.53%, Recall: 99.46%, F1: 99.49%
+handclapping => Precision: 98.07%, Recall: 98.14%, F1: 98.10%
+handwaving => Precision: 98.49%, Recall: 98.41%, F1: 98.45%
+walking => Precision: 99.63%, Recall: 99.69%, F1: 99.66%

@@ -1,0 +1,20 @@
+Accuracy: 0.5137
+
+Classification Report:
+                    precision    recall  f1-score   support
+
+        basketball     0.0000    0.0000    0.0000       591
+            biking     0.6171    0.1180    0.1982      2567
+            diving     0.7534    0.4104    0.5314      1630
+        golf_swing     0.9148    0.6370    0.7510      1449
+      horse_riding     0.4404    0.4484    0.4443      3071
+   soccer_juggling     0.6409    0.7889    0.7072      3601
+             swing     0.4732    0.5106    0.4912      2125
+      tennis_swing     0.6492    0.6608    0.6550       846
+trampoline_jumping     0.5668    0.6376    0.6001      1730
+volleyball_spiking     0.0000    0.0000    0.0000       332
+           walking     0.2881    0.6826    0.4052      2114
+
+          accuracy                         0.5137     20056
+         macro avg     0.4858    0.4449    0.4349     20056
+      weighted avg     0.5456    0.5137    0.4920     20056
